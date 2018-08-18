@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EE574462128A0EF0010F8BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE574452128A0EF0010F8BF /* Main.storyboard */; };
 		8EF409C9212899A2001BBA3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF409C8212899A2001BBA3B /* AppDelegate.swift */; };
 		8EF409CB212899A2001BBA3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF409CA212899A2001BBA3B /* ViewController.swift */; };
-		8EF409CE212899A2001BBA3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF409CC212899A2001BBA3B /* Main.storyboard */; };
 		8EF409D0212899A3001BBA3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF409CF212899A3001BBA3B /* Assets.xcassets */; };
 		8EF409D3212899A3001BBA3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF409D1212899A3001BBA3B /* LaunchScreen.storyboard */; };
+		8EF409DB21289A3F001BBA3B /* Entrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF409DA21289A3F001BBA3B /* Entrant.swift */; };
+		8EF409DD21289A4E001BBA3B /* PersonalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF409DC21289A4E001BBA3B /* PersonalInfo.swift */; };
+		8EF409DF21289A58001BBA3B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF409DE21289A58001BBA3B /* Data.swift */; };
+		8EF409E121289A62001BBA3B /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF409E021289A62001BBA3B /* Error.swift */; };
+		8EF409E321289A74001BBA3B /* DOBChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF409E221289A74001BBA3B /* DOBChecker.swift */; };
+		8EF409E521289A7F001BBA3B /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF409E421289A7F001BBA3B /* Alert.swift */; };
+		8EF409E721289AAD001BBA3B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF409E621289AAD001BBA3B /* CustomTextField.swift */; };
+		8EF409E921289AD8001BBA3B /* PassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF409E821289AD8001BBA3B /* PassViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8EE574452128A0EF0010F8BF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8EF409C5212899A2001BBA3B /* Amusement Park Pass Generator P2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amusement Park Pass Generator P2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF409C8212899A2001BBA3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EF409CA212899A2001BBA3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8EF409CD212899A2001BBA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EF409CF212899A3001BBA3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EF409D2212899A3001BBA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EF409D4212899A3001BBA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EF409DA21289A3F001BBA3B /* Entrant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entrant.swift; sourceTree = "<group>"; };
+		8EF409DC21289A4E001BBA3B /* PersonalInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfo.swift; sourceTree = "<group>"; };
+		8EF409DE21289A58001BBA3B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		8EF409E021289A62001BBA3B /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		8EF409E221289A74001BBA3B /* DOBChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOBChecker.swift; sourceTree = "<group>"; };
+		8EF409E421289A7F001BBA3B /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		8EF409E621289AAD001BBA3B /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		8EF409E821289AD8001BBA3B /* PassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +71,16 @@
 			isa = PBXGroup;
 			children = (
 				8EF409C8212899A2001BBA3B /* AppDelegate.swift */,
+				8EF409DA21289A3F001BBA3B /* Entrant.swift */,
+				8EF409DC21289A4E001BBA3B /* PersonalInfo.swift */,
+				8EF409DE21289A58001BBA3B /* Data.swift */,
+				8EF409E021289A62001BBA3B /* Error.swift */,
+				8EF409E221289A74001BBA3B /* DOBChecker.swift */,
+				8EF409E421289A7F001BBA3B /* Alert.swift */,
+				8EF409E621289AAD001BBA3B /* CustomTextField.swift */,
 				8EF409CA212899A2001BBA3B /* ViewController.swift */,
-				8EF409CC212899A2001BBA3B /* Main.storyboard */,
+				8EF409E821289AD8001BBA3B /* PassViewController.swift */,
+				8EE574452128A0EF0010F8BF /* Main.storyboard */,
 				8EF409CF212899A3001BBA3B /* Assets.xcassets */,
 				8EF409D1212899A3001BBA3B /* LaunchScreen.storyboard */,
 				8EF409D4212899A3001BBA3B /* Info.plist */,
@@ -124,7 +148,7 @@
 			files = (
 				8EF409D3212899A3001BBA3B /* LaunchScreen.storyboard in Resources */,
 				8EF409D0212899A3001BBA3B /* Assets.xcassets in Resources */,
-				8EF409CE212899A2001BBA3B /* Main.storyboard in Resources */,
+				8EE574462128A0EF0010F8BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +159,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF409DB21289A3F001BBA3B /* Entrant.swift in Sources */,
+				8EF409DF21289A58001BBA3B /* Data.swift in Sources */,
+				8EF409DD21289A4E001BBA3B /* PersonalInfo.swift in Sources */,
+				8EF409E921289AD8001BBA3B /* PassViewController.swift in Sources */,
 				8EF409CB212899A2001BBA3B /* ViewController.swift in Sources */,
+				8EF409E121289A62001BBA3B /* Error.swift in Sources */,
+				8EF409E321289A74001BBA3B /* DOBChecker.swift in Sources */,
+				8EF409E521289A7F001BBA3B /* Alert.swift in Sources */,
 				8EF409C9212899A2001BBA3B /* AppDelegate.swift in Sources */,
+				8EF409E721289AAD001BBA3B /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8EF409CC212899A2001BBA3B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8EF409CD212899A2001BBA3B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8EF409D1212899A3001BBA3B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +307,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59LKW45FXJ;
 				INFOPLIST_FILE = "Amusement Park Pass Generator P2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,7 +315,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Bing-Bang-Boom.Amusement-Park-Pass-Generator-P2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -301,6 +326,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59LKW45FXJ;
 				INFOPLIST_FILE = "Amusement Park Pass Generator P2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +334,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Bing-Bang-Boom.Amusement-Park-Pass-Generator-P2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
