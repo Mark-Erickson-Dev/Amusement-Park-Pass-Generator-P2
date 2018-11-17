@@ -237,6 +237,7 @@ class PassViewController: UIViewController {
         testResultsLabel.textColor = UIColor.white
         
         if isGranted {
+            
             grantedAudioPlayer?.currentTime = 0
             grantedAudioPlayer?.play()
             

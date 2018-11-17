@@ -85,6 +85,7 @@ class ViewController: UIViewController {
     // Resets the UI and sets up the menus each time this view controller is presented after returning from the PassViewController
     override func viewWillAppear(_ animated: Bool) {
         
+        disableGeneratePass()
         resetAllText()
         setupInitialSubmenus()
     }
